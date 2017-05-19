@@ -5,7 +5,7 @@ from sklearn import tree
 from sklearn.externals.six import StringIO
 
 #Read in the csv file and put features in a list of dict and list of class label
-allElectronicsData = open('E:\python\DeepLearningBasicsMachineLearning\Datasets\AllELectronics.csv','r')
+allElectronicsData = open('D:\python\DeepLearningBasicsMachineLearning\Datasets\AllELectronics.csv','r')
 reader = csv.reader(allElectronicsData)
 
 headers = next(reader)
